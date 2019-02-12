@@ -10,7 +10,7 @@ module.exports = () =>
 			{
 				sizes:
 				[
-					'1024x768'
+					'1920x1080'
 				],
 				dest: 'build/desktop'
 			}
@@ -34,6 +34,7 @@ module.exports = () =>
 				'https://demo.redaxscript.com/login'
 			],
 			format: 'jpg',
+			delay: 1,
 			crop: true
 		}
 	};
