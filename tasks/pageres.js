@@ -45,7 +45,7 @@ module.exports = () =>
 				'https://demo.redaxscript.com?p=module/demo/login&redirect=admin/edit/settings'
 			],
 			format: 'jpg',
-			delay: 1,
+			delay: 2,
 			crop: true
 		}
 	};
