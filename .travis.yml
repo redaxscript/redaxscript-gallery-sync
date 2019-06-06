@@ -6,6 +6,8 @@ addons:
  apt:
   packages:
   - lftp
+ ssh_known_hosts:
+ - w00976cb.kasserver.com
 
 install:
 - npm install --global grunt-cli
