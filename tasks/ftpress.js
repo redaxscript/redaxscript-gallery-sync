@@ -10,7 +10,7 @@ module.exports = () =>
 			[
 				'build'
 			],
-			dest: 'www/htdocs/w00976cb/redaxscript/gallery',
+			dest: 'www/htdocs/w00976cb/redaxscript/_gallery',
 			options:
 			{
 				url: process.env.FTP_URL,
