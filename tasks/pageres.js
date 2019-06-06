@@ -44,6 +44,7 @@ module.exports = () =>
 				'https://demo.redaxscript.com?p=module/demo/login&redirect=admin/new/groups',
 				'https://demo.redaxscript.com?p=module/demo/login&redirect=admin/edit/settings'
 			],
+			filename: '{{size}}-{{url}}',
 			format: 'jpg',
 			delay: 2,
 			crop: true
