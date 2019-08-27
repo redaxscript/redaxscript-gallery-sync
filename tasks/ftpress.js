@@ -16,6 +16,7 @@ module.exports = () =>
 				url: process.env.FTP_URL,
 				command:
 				[
+					'set sftp:auto-confirm yes',
 					'mirror {SOURCE} {TARGET}-new-{TIMESTAMP} --reverse --delete-first --parallel=10 --use-pget-n=10',
 					'mv {TARGET} {TARGET}-old-{TIMESTAMP}',
 					'mv {TARGET}-new-{TIMESTAMP} {TARGET}',
