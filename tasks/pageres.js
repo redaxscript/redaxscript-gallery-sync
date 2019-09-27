@@ -33,6 +33,7 @@ module.exports = () =>
 				'https://demo.redaxscript.com',
 				'https://demo.redaxscript.com?p=search/vero',
 				'https://demo.redaxscript.com?p=login',
+				'https://demo.redaxscript.com?p=module/demo/login&redirect=admin',
 				'https://demo.redaxscript.com?p=module/demo/login&redirect=admin/view/articles',
 				'https://demo.redaxscript.com?p=module/demo/login&redirect=admin/edit/articles/1',
 				'https://demo.redaxscript.com?p=module/demo/login&redirect=admin/new/articles',
