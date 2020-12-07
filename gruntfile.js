@@ -25,7 +25,6 @@ module.exports = grunt =>
 	]);
 	grunt.registerTask('build',
 	[
-		'shell:removeBuild',
 		'shell:reinstallDemo',
 		'pageres'
 	]);
